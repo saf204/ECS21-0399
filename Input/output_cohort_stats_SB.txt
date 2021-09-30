@@ -1,0 +1,34 @@
+LandisData  "Output Cohort Statistics"
+
+
+Timestep   25
+
+
+SpeciesAgeStats
+MapNames   CohortStats/{species}-{statistic}-{timestep}.img
+
+MIN	pinupalu quervirg 		<< minimum age for each species
+MAX	 pinupalu quervirg  << maximum age for each species
+MED	 pinupalu quervirg	<< median age for each species
+AVG		pinupalu quervirg	<< average age for each species
+SD		pinupalu quervirg	<< standard deviation of age for each species
+
+
+SiteAgeStats
+MapNames   CohortStats/AGE-{statistic}-{timestep}.img
+
+MIN 			<< minimum age across all species on site
+MAX			<< maximum age across all species on site
+MED			<< median age across all species on site
+AVG			<< average age across all species on site
+SD			<< standard deviation of age across all species on site
+RICH   		<< number of age classes across all species on site
+COUNT   		<< count of cohorts
+EVEN   		<< evenness 
+
+
+SiteSpeciesStats
+
+MapNames   CohortStats/SPP-{statistic}-{timestep}.img
+
+>>RICH   		<< the number of species at each site

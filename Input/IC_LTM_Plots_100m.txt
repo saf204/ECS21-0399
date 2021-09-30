@@ -1,0 +1,599 @@
+LandisData "Initial Communities"
+
+MapCode 0 
+
+MapCode 1001 
+pinupalu 3 
+
+MapCode 1002 
+pinupalu 7 
+
+MapCode 1003 
+pinupalu 15 
+
+MapCode 1004 
+pinupalu 15 
+
+MapCode 1005 
+pinupalu 7 
+
+MapCode 1006 
+pinupalu 6 
+
+MapCode 1007 
+pinupalu 3 
+
+MapCode 1008 
+pinupalu 4 
+
+MapCode 1009 
+pinupalu 4 
+
+MapCode 1010 
+pinupalu 4 
+
+MapCode 1011 
+pinupalu 1 
+
+MapCode 1012 
+pinupalu 16 
+
+MapCode 1013 
+pinupalu 4 
+
+MapCode 1014 
+pinupalu 6 
+
+MapCode 1015 
+pinupalu 9 
+
+MapCode 1016 
+pinupalu 6 
+
+MapCode 1017 
+pinupalu 9 
+
+MapCode 1018 
+pinupalu 9 
+
+MapCode 1019 
+pinupalu 9 
+
+MapCode 1020 
+pinupalu 9 
+
+MapCode 1021 
+pinupalu 4 
+
+MapCode 1022 
+pinupalu 9 
+
+MapCode 1023 
+pinupalu 1 
+
+MapCode 1024 
+pinupalu 4 9 
+
+MapCode 1025 
+pinupalu 4 7 
+
+MapCode 1026 
+pinupalu 15 
+
+MapCode 1027 
+pinupalu 15 
+
+MapCode 1028 
+pinupalu 15 
+
+MapCode 1029 
+pinupalu 7 15 
+
+MapCode 1030 
+pinupalu 15 
+
+MapCode 1031 
+pinupalu 15 
+
+MapCode 1032 
+pinupalu 7 15 
+
+MapCode 1033 
+pinupalu 1 
+
+MapCode 1034 
+pinupalu 3 
+
+MapCode 1035 
+pinupalu 1 
+
+MapCode 1036 
+pinupalu 1 
+
+MapCode 1037 
+pinupalu 6 
+
+MapCode 16 
+pinupalu 6 7 8 11 16 21 22 23 26 37 50 52 53 65 67 70 75 77 78 
+
+MapCode 31 
+pinupalu 42 49 74 
+quermarg 51 52 56 
+querinca 51 56 
+querlaev 66 
+
+MapCode 37 
+pinupalu 9 10 12 17 23 25 35 38 41 42 46 47 48 56 79 
+querstel 50 55 
+
+MapCode 50 
+pinuelli 77 86 
+pinupalu 7 11 14 17 18 20 25 27 35 36 37 39 42 47 49 50 
+quervirg 68 71 
+
+MapCode 52 
+pinupalu 10 11 12 15 17 19 21 28 30 33 35 37 39 44 46 47 48 50 52 56 57 60 61 64 
+
+MapCode 58 
+pinupalu 25 39 44 48 49 51 58 63 68 
+quervirg 285 
+
+MapCode 60 
+pinupalu 10 29 31 36 41 42 43 44 45 47 49 51 52 63 67 77 
+
+MapCode 67 
+pinupalu 7 38 47 52 
+querlaev 52 53 54 56 57 59 60 
+
+MapCode 75 
+pinupalu 25 
+quervirg 75 
+querfalc 69 84 
+querhemi 62 
+quernigr 63 68 
+
+MapCode 78 
+pinupalu 8 11 14 17 28 34 35 38 40 43 44 45 47 48 56 57 58 59 60 64 
+
+MapCode 83 
+pinupalu 50 62 77 
+quermarg 53 55 59 64 90 92 
+querlaev 56 
+
+MapCode 104 
+pinuelli 25 31 46 54 56 57 
+querfalc 74 145 
+
+MapCode 114 
+pinupalu 55 56 57 61 73 
+quervirg 111 469 
+querfalc 112 
+
+MapCode 116 
+pinupalu 16 22 26 32 34 35 37 41 42 44 45 46 47 48 51 52 54 87 
+
+MapCode 118 
+pinupalu 8 9 12 13 15 16 29 34 37 40 44 45 47 49 50 51 52 53 57 58 61 62 71 
+
+MapCode 121 
+pinupalu 18 23 52 58 61 63 64 65 
+querstel 79 
+querfalc 85 
+
+MapCode 130 
+pinuelli 5 7 
+
+MapCode 132 
+pinuelli 7 14 21 25 33 37 68 
+quervirg 48 51 53 61 66 156 241 538 
+querhemi 48 61 
+quernigr 49 55 56 60 62 66 69 
+
+MapCode 143 
+pinupalu 9 14 53 
+querstel 52 
+querlaev 47 50 52 53 55 56 58 59 67 
+
+MapCode 151 
+pinupalu 7 9 10 11 13 14 15 16 17 18 19 24 
+
+MapCode 159 
+pinupalu 30 35 36 81 
+querhemi 48 49 53 54 56 58 60 61 62 
+querlaev 55 58 64 
+quernigr 60 
+
+MapCode 172 
+pinuelli 21 43 44 45 47 50 54 55 
+quervirg 91 287 
+querhemi 59 
+quernigr 64 
+
+MapCode 187 
+pinupalu 8 10 51 62 
+quervirg 113 178 482 
+
+MapCode 191 
+pinupalu 17 47 63 
+quervirg 76 140 197 256 392 431 567 610 
+quernigr 105 
+
+MapCode 194 
+pinupalu 7 10 11 15 18 25 
+
+MapCode 203 
+querstel 58 162 
+quervirg 160 477 
+
+MapCode 208 
+pinuelli 60 73 76 
+querhemi 48 60 
+nyssbifl 37 39 40 41 42 43 44 46 47 48 49 52 54 55 56 57 58 61 62 66 68 71 72 73 75 90 92 97 148 152 162 168 174 182 190 193 194 199 204 222 240 256 260 264 301 
+taxoasce 41 43 51 52 54 58 93 193 220 222 245 256 257 279 291 297 
+
+MapCode 214 
+pinupalu 8 16 25 29 40 41 43 46 48 53 58 61 65 69 
+
+MapCode 216 
+pinupalu 10 11 12 13 24 25 33 48 83 94 
+quernigr 4 81 
+
+MapCode 220 
+pinuelli 11 18 37 38 45 47 51 52 61 64 
+pinupalu 33 
+quernigr 51 54 
+
+MapCode 236 
+pinupalu 10 20 23 34 57 61 66 69 
+querfalc 102 
+
+MapCode 242 
+pinuelli 20 32 33 
+pinupalu 8 9 12 13 16 18 26 
+
+MapCode 244 
+pinupalu 12 13 15 25 31 36 39 40 41 43 44 45 46 47 48 50 55 57 
+
+MapCode 264 
+pinuelli 43 44 59 65 73 75 
+pinupalu 63 73 79 83 
+
+MapCode 267 
+pinupalu 61 68 
+quervirg 52 
+querfalc 58 59 60 61 64 65 67 72 74 75 76 80 88 101 
+querhemi 60 
+
+MapCode 270 
+pinupalu 29 60 69 72 
+
+MapCode 285 
+pinupalu 70 95 
+quervirg 52 110 138 225 247 289 391 
+querfalc 104 173 
+
+MapCode 286 
+pinupalu 12 15 24 42 44 46 50 57 64 
+
+MapCode 288 
+pinupalu 8 61 88 
+
+MapCode 290 
+pinupalu 12 19 43 48 54 55 63 64 71 
+
+MapCode 293 
+pinupalu 7 9 16 61 71 
+
+MapCode 304 
+quervirg 51 54 56 59 
+quernigr 46 51 53 
+
+MapCode 306 
+pinupalu 10 48 50 53 61 83 
+quernigr 50 
+
+MapCode 323 
+pinupalu 9 20 23 30 40 48 59 64 
+
+MapCode 327 
+pinupalu 8 9 14 15 16 17 20 21 23 24 28 29 
+
+MapCode 335 
+pinupalu 6 8 
+quervirg 56 112 
+querfalc 54 69 79 95 
+querhemi 58 73 
+quernigr 47 58 70 71 
+
+MapCode 343 
+querhemi 52 57 62 83 
+
+MapCode 344 
+quervirg 115 573 
+querhemi 46 48 49 51 52 54 56 57 58 61 62 63 64 65 66 68 70 75 83 
+
+MapCode 361 
+pinuelli 40 
+quervirg 81 106 132 365 406 530 537 574 
+quernigr 56 60 
+
+MapCode 362 
+pinupalu 7 10 11 13 20 25 29 35 39 46 48 51 52 61 67 68 71 79 
+
+MapCode 364 
+pinuelli 79 
+pinupalu 27 39 50 59 78 
+quervirg 54 56 57 58 64 134 467 
+querhemi 46 50 52 53 55 56 58 
+quernigr 59 60 
+
+MapCode 366 
+pinupalu 8 11 52 54 55 58 62 66 73 75 77 79 84 
+
+MapCode 369 
+pinupalu 22 27 49 50 51 57 59 62 
+
+MapCode 371 
+pinupalu 7 9 17 24 25 26 37 39 54 58 
+querstel 50 52 62 
+querinca 55 
+quernigr 48 
+
+MapCode 379 
+quervirg 524 
+
+MapCode 380 
+pinupalu 12 16 24 32 44 47 48 49 53 58 65 
+quervirg 92 114 215 
+querfalc 63 138 
+
+MapCode 392 
+pinuelli 32 55 57 58 59 67 74 
+quervirg 63 
+querhemi 48 50 51 53 54 55 56 59 60 61 63 64 66 67 68 69 70 71 73 
+
+MapCode 393 
+pinupalu 11 18 46 56 59 61 62 72 
+
+MapCode 408 
+pinupalu 56 69 75 
+
+MapCode 414 
+pinuelli 47 51 
+quernigr 49 
+nyssbifl 137 
+taxoasce 47 158 171 221 232 
+
+MapCode 416 
+pinupalu 8 9 10 12 15 19 25 32 37 40 41 58 63 64 92 
+quervirg 58 354 
+querhemi 46 57 
+
+MapCode 446 
+pinuelli 2 73 80 
+pinupalu 43 
+quervirg 302 309 
+
+MapCode 448 
+pinuelli 36 54 55 61 69 70 80 84 
+quervirg 73 75 81 162 
+querhemi 49 57 
+
+MapCode 454 
+pinuelli 54 
+pinupalu 11 14 19 71 90 
+querfalc 99 131 
+
+MapCode 462 
+pinupalu 7 11 16 18 27 33 34 36 37 38 40 41 43 45 47 48 54 65 
+
+MapCode 478 
+pinupalu 8 10 11 12 14 15 16 32 35 37 42 46 47 49 50 51 52 53 55 56 57 59 60 67 71 
+
+MapCode 487 
+pinupalu 48 69 
+
+MapCode 488 
+pinupalu 38 
+
+MapCode 489 
+pinupalu 6 8 16 26 29 36 40 44 46 47 60 63 64 66 84 
+querfalc 82 
+
+MapCode 504 
+quervirg 65 72 112 114 182 
+querhemi 55 73 
+quernigr 70 
+
+MapCode 507 
+pinupalu 7 18 36 84 
+quervirg 493 
+quernigr 47 48 49 52 58 60 61 67 
+
+MapCode 510 
+pinupalu 64 
+
+MapCode 512 
+pinuelli 42 80 
+quervirg 54 167 195 207 219 241 277 435 487 
+quernigr 53 
+nyssbifl 194 
+
+MapCode 518 
+pinuelli 3 4 5 6 10 
+
+MapCode 520 
+pinuelli 9 67 
+quervirg 50 52 55 57 59 62 83 84 109 142 178 187 299 415 444 552 
+querfalc 48 
+quernigr 46 47 48 49 50 51 52 53 55 56 57 58 60 
+
+MapCode 523 
+pinupalu 68 90 
+
+MapCode 534 
+pinuelli 40 53 65 68 72 76 
+pinupalu 28 36 50 55 59 61 
+
+MapCode 539 
+pinupalu 16 21 28 32 40 45 52 53 56 57 58 60 62 63 70 77 
+
+MapCode 552 
+pinupalu 7 9 10 11 14 15 19 20 22 23 24 30 55 84 
+quervirg 87 
+
+MapCode 555 
+pinupalu 12 55 
+quervirg 53 
+querhemi 46 47 
+querinca 46 
+
+MapCode 567 
+pinupalu 8 14 16 19 
+quermarg 52 
+quervirg 57 
+querhemi 48 50 53 54 55 56 57 59 61 62 63 69 71 75 
+querlaev 49 
+quernigr 65 
+
+MapCode 584 
+pinupalu 9 10 17 39 47 50 52 54 56 76 85 
+
+MapCode 585 
+pinupalu 7 8 10 17 18 32 36 56 69 
+querfalc 111 
+
+MapCode 617 
+pinupalu 20 59 
+
+MapCode 619 
+pinupalu 73 
+
+MapCode 631 
+pinupalu 30 31 46 49 59 63 66 
+querlaev 46 47 50 
+
+MapCode 635 
+pinupalu 6 7 8 9 10 
+
+MapCode 640 
+pinupalu 7 10 12 33 36 43 44 45 46 47 48 50 52 58 62 72 74 
+
+MapCode 648 
+pinupalu 36 
+quervirg 51 59 62 63 64 66 70 72 75 76 77 78 80 82 84 85 88 89 93 102 107 117 130 157 174 189 197 216 219 238 
+querhemi 56 60 
+quernigr 46 51 56 
+
+MapCode 649 
+pinupalu 19 28 31 35 52 63 68 78 
+
+MapCode 654 
+pinupalu 50 54 59 60 65 73 80 
+
+MapCode 662 
+pinuelli 61 
+
+MapCode 664 
+pinupalu 11 16 19 29 31 38 39 40 47 48 52 53 55 70 83 
+
+MapCode 665 
+pinupalu 16 30 33 40 67 
+
+MapCode 683 
+querstel 50 53 66 68 
+quervirg 54 59 96 98 
+querhemi 46 48 49 50 53 54 56 57 59 62 63 64 66 73 80 83 84 98 
+
+MapCode 704 
+pinuelli 5 
+pinupalu 57 62 77 
+quervirg 73 130 154 192 251 
+quernigr 48 
+
+MapCode 712 
+pinupalu 7 10 15 16 19 25 28 29 31 34 35 36 41 42 43 45 46 47 48 49 54 
+quervirg 584 
+quernigr 52 53 
+
+MapCode 715 
+pinupalu 48 53 55 59 63 66 68 
+
+MapCode 727 
+pinupalu 12 13 14 17 18 21 24 25 27 31 32 35 36 37 39 40 42 46 49 51 56 
+
+MapCode 731 
+pinupalu 9 51 58 62 
+
+MapCode 734 
+pinupalu 9 10 14 16 19 20 21 22 23 25 26 30 34 37 40 43 45 47 48 50 54 56 57 70 
+
+MapCode 743 
+pinupalu 18 27 53 55 
+
+MapCode 745 
+pinupalu 24 36 39 41 42 43 49 50 55 57 60 79 
+querfalc 90 92 
+
+MapCode 759 
+quervirg 51 60 66 91 192 
+querhemi 49 53 56 73 77 78 85 
+
+MapCode 760 
+quervirg 77 139 179 194 355 
+querhemi 95 98 
+quernigr 72 
+
+MapCode 766 
+pinuelli 56 
+pinupalu 7 11 37 45 48 58 60 
+
+MapCode 768 
+pinupalu 7 60 67 69 75 
+
+MapCode 779 
+pinupalu 20 43 44 54 60 61 66 87 
+querstel 50 82 84 
+
+MapCode 790 
+pinupalu 76 
+
+MapCode 792 
+pinuelli 10 15 
+pinupalu 64 
+
+MapCode 798 
+pinupalu 17 20 21 49 52 55 57 72 
+
+MapCode 811 
+pinupalu 19 42 
+querhemi 49 50 
+quernigr 53 55 99 
+
+MapCode 824 
+quervirg 79 84 131 295 
+querhemi 51 89 
+quernigr 64 68 
+nyssbifl 50 
+
+MapCode 825 
+pinupalu 8 17 54 58 60 73 
+querstel 169 
+
+MapCode 832 
+pinupalu 9 43 47 53 78 81 
+
+MapCode 837 
+pinupalu 34 54 61 63 67 71 76 
+
+MapCode 840 
+nyssbifl 33 34 42 44 49 52 53 54 58 61 63 65 70 81 85 87 88 89 90 93 95 96 99 101 105 106 109 110 111 114 115 118 119 124 125 127 131 132 133 135 136 140 142 143 154 155 158 160 164 165 166 169 171 177 179 181 182 183 185 186 187 195 204 213 215 217 220 246 260 307 354 
+taxoasce 141 145 199 220 370 413 
+
+MapCode 854 
+pinuelli 14 22 23 26 28 31 38 39 46 47 51 55 
+querhemi 49 53 
+taxoasce 46 263 
+
+MapCode 859 
+pinupalu 6 7 8 9 10 11 12 13 14 15 16 17 19 20 

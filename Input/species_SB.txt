@@ -1,0 +1,30 @@
+LandisData	Species
+
+>>			Sexual		    	Seed Disp.Dist.	Vegetative 
+>> Species      Long-	Matur-	Shade	Fire	Effect-		Reprod. Reprouting Age  Post-Fire
+>> Name    	evity	ity	Tol.	Tol.	ive	Max.	Prob.  	Min.    Max.	Regeneration
+>> ---------	-----	------	-----	----	------ 	----	------	----	----	------------
+   nyssbifl	400	5	3	1	50	3000	0.5	0	100	resprout
+   pinuelli	200	10	3	4	100	200	0.0	0	150	none
+   pinupalu	400	20	1	5	20	200	0.0	0	5	none
+>>   querfalc	200	25	4	2	50	3000	0.5	0	100	resprout
+>>   querhemi	150	20	4	1	50	3000	0.5	0	100	resprout
+>>   querinca	150	10	4	5	50	3000	0.5	0	100	resprout
+>>   querlaev	150	20	4	3	50	3000	0.5	0	100	resprout
+>>   quermarg	400	25	4	3	50	3000	0.5	0	100	resprout
+>>   quernigr	200	20	4	2	50	3000	0.5	0	150	resprout
+>>   querstel	400	25	4	3	50	3000	0.5	0	100	resprout
+>>   quervirg	700	25	4	2	50	3000	0.5	0	200	resprout
+>>   taxoasce	500	20	3	1	100	300	0.5	0	60	resprout
+>> changed resprouting above SF 2017
+
+   querfalc	200	25	4	2	50	3000	0.75	5	40	resprout
+   querhemi	150	20	4	1	50	3000	0.5	5	40	resprout
+   querinca	150	10	4	5	50	3000	0.75	5	40	resprout
+   querlaev	150	20	4	3	50	3000	0.75	5	40	resprout
+   quermarg	400	25	4	3	50	3000	0.75	5	50	resprout
+   quernigr	200	20	4	2	50	3000	0.75	5	150	resprout
+   querstel	400	25	4	3	50	3000	0.75	5	50	resprout
+   quervirg	700	25	4	2	50	3000	0.75	5	200	resprout
+   taxoasce	500	20	3	1	100	300	0.5	0	60	resprout
+  

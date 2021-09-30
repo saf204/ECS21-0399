@@ -1,0 +1,18 @@
+LandisData	"Ecoregions"		
+
+
+>> Active	MapCode		Name		Description
+>> ------       -------         ------          ------------------------------------------			
+   yes		1		eco1		"sand, excessively drained"
+   yes		2		eco2		"sand, somewhat excessively drained"
+   yes		3		eco3		"sand, somewhat poorly drained"
+   yes		4		eco4		"loamy sand, well drained (1)"
+   yes		5		eco5		"loamy sand, well drained (2)"
+   yes		6		eco6		"loamy sand, well drained (3), higher wilting point"
+   yes		7		eco7		"fine sandy loam, moderately well drained"
+   yes		8		eco8		"fine sandy loam, somewhat poorly drained"
+   yes		9		eco9		"fine sandy loam, poorly drained"
+   no		100		water		"water bodies"
+   no		101		nonfor		"non-forest"	<< areas we excluded: shrub/scrub, nonforested wetland, agricultural, wildlife food plot, urban/built-up
+   no		102		none		"areas outside of compartments"
+   no		0		nodata		"no data"

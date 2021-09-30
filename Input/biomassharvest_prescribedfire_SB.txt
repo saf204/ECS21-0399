@@ -1,0 +1,353 @@
+LandisData  "Biomass Harvest"
+
+>> working with this file to check for how much Hardwoods are being removed.  10-20-2017
+
+Timestep    1
+
+>>ManagementAreas	H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\mgmt100m_SB
+>>ManagementAreas	 C:\IchauwayModeling_Working\OriginalFiles_Bhotika\AnalysisAndModeling\Calibration_LL\Ichauway_100m\Input\mgmt100m_SB
+ManagementAreas		C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\\mgmt100m_SB
+
+>>Stands		H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\stands100m_SB
+>>Stands		C:\IchauwayModeling_Working\OriginalFiles_Bhotika\AnalysisAndModeling\Calibration_LL\Ichauway_100m\Input\stands100m_SB
+Stands			C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\stands100m_SB
+
+>>-----------------------------------------------------------------------------------
+Prescription Fire1Yr
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	1
+
+SiteSelection	Complete
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+>>	nyssbifl	
+>>	taxoasce	
+>>	pinuelli	1-2 (97%) 3-4 (10%)
+>>	pinupalu	1-5 (75%) 6-7 (50%)
+	pinuelli	1-3 (90%) 4-6 (10%)<<3-4 (10%)
+	pinupalu	1-6 (50%) <<6-7 (50%)
+	querfalc	1-12 (80%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << TRIAL values for all hardwood spp (LL notes)
+	querhemi	1-15 (90%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)		
+>>	querinca	1-15 (97%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB
+>>	querlaev	1-15 (97%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB	
+	quermarg	1-15 (70%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	quernigr	1-15 (70%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	querstel	1-15 (70%) <<16-20 (0%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	quervirg	1-15 (70%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	
+
+>>-----------------------------------------------------------------------------------
+Prescription WildFire
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	50
+
+SiteSelection	Complete
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+
+	nyssbifl	3-700 
+	taxoasce	3-700
+	pinuelli	3-700   <<4-6 (10%)<<3-4 (10%)
+	pinupalu	3-700
+>>	pinupalu	3-90 << 16-700(90%)   << 6 (5%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)<<6-7 (50%)
+>>	querfalc	1-5<<(99%)  <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << TRIAL values for all hardwood spp (LL notes)
+>>	querhemi	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)		
+>>	querinca	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB
+>>	querlaev	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB	
+>>	quermarg	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quernigr	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	querstel	1-5 <<(99%) <<16-20 (0%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quervirg	1-5  <<(99%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+
+	querfalc	3-700    << 16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << TRIAL values for all hardwood spp (LL notes)
+	querhemi	3-700  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)		
+	querinca	3-700  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << not included orig. w/SB
+	querlaev	3-700    <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << not included orig. w/SB	
+	quermarg	3-700   <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	quernigr	3-700  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	querstel	3-700   <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	quervirg	3-700     <<4-100 (99%) 101-700 (99%) <<16-700 (99%) << 3-4 (99%) 5-6 (99%) 7-
+>>-----------------------------------------------------------------------------------
+>>-----------------------------------------------------------------------------------
+Prescription WildFire2
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	10
+
+SiteSelection	Complete
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+	nyssbifl	3-700 
+	taxoasce	3-700  
+	pinuelli	3-700   <<4-6 (10%)<<3-4 (10%)
+	pinupalu	3-120    << 6 (5%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)<<6-7 (50%)
+>>	querfalc	1-5<<(99%)  <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << TRIAL values for all hardwood spp (LL notes)
+>>	querhemi	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)		
+>>	querinca	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB
+>>	querlaev	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB	
+>>	quermarg	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quernigr	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	querstel	1-5 <<(99%) <<16-20 (0%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quervirg	1-5  <<(99%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+
+	querfalc	3-700   << 16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << TRIAL values for all hardwood spp (LL notes)
+	querhemi	3-700  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)		
+	querinca	3-700 <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << not included orig. w/SB
+	querlaev	3-700   <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << not included orig. w/SB	
+	quermarg	3-700 <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	quernigr	3-700  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	querstel	3-700   <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	quervirg	3-700   <<4-100 (99%) 101-700 (99%) <<16-700 (99%) << 3-4 (99%) 5-6 (99%) 7-8 (99%) 9-10 (99%) 11-12 (99%) 13-14 (99%) 15-400 (25%) << (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+
+>>-----------------------------------------------------------------------------------
+>>-----------------------------------------------------------------------------------
+Prescription WildFire3
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	20
+
+SiteSelection	Complete
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+	nyssbifl	22-40 (50%)
+	taxoasce	22-40 (50%)
+	pinuelli	22-40 (50%)   <<4-6 (10%)<<3-4 (10%)
+>>	pinupalu	1-21 << 16-700(90%)   << 6 (5%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)<<6-7 (50%)
+>>	querfalc	1-5<<(99%)  <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << TRIAL values for all hardwood spp (LL notes)
+>>	querhemi	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)		
+>>	querinca	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB
+>>	querlaev	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB	
+>>	quermarg	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quernigr	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	querstel	1-5 <<(99%) <<16-20 (0%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quervirg	1-5  <<(99%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+
+	querfalc	22-40 (50%)    << 16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << TRIAL values for all hardwood spp (LL notes)
+	querhemi	22-40 (50%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)		
+	querinca	22-40 (50%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << not included orig. w/SB
+	querlaev	22-40 (50%)   <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << not included orig. w/SB	
+	quermarg	22-40 (50%)  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	quernigr	22-40 (50%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	querstel	22-40 (50%)  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	quervirg	22-40 (50%)    <<4-100 (99%) 101-700 (99%) <<16-700 (99%) << 3-4 (99%) 5-6 (99%) 7-
+>>-----------------------------------------------------------------------------------
+>>-----------------------------------------------------------------------------------
+Prescription WildFire4
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	10
+
+SiteSelection	Complete
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+	nyssbifl	3-700 
+	taxoasce	3-700  
+	pinuelli	3-700   <<4-6 (10%)<<3-4 (10%)
+	pinupalu	3-120    << 6 (5%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)<<6-7 (50%)
+>>	querfalc	1-5<<(99%)  <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << TRIAL values for all hardwood spp (LL notes)
+>>	querhemi	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)		
+>>	querinca	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB
+>>	querlaev	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB	
+>>	quermarg	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quernigr	1-5 <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	querstel	1-5 <<(99%) <<16-20 (0%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quervirg	1-5  <<(99%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+
+	querfalc	3-700   << 16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << TRIAL values for all hardwood spp (LL notes)
+	querhemi	3-700  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)		
+	querinca	3-700 <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << not included orig. w/SB
+	querlaev	3-700   <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%) << not included orig. w/SB	
+	quermarg	3-700 <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	quernigr	3-700  <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	querstel	3-700   <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+	quervirg	3-700   <<4-100 (99%) 101-700 (99%) <<16-700 (99%) << 3-4 (99%) 5-6 (99%) 7-8 (99%) 9-10 (99%) 11-12 (99%) 13-14 (99%) 15-400 (25%) << (80%) 21-50(60%) 51-70(40%)  71-90 (25%) 91-220 (21%)
+
+>>-----------------------------------------------------------------------------------
+Prescription Fire2Yr
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	2
+
+SiteSelection	Complete
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+>>	nyssbifl	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150     
+>>	taxoasce	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150  
+>>	pinuelli	1-2 3-4 (99%) 5 6-8 (99%) 9  50-150     <<4-6 (10%)<<3-4 (10%)
+>>	pinupalu	   << 6 (99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)<<6-7 (50%)
+>>	querfalc	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150    <<(99%)  <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << TRIAL values for all hardwood spp (LL notes)
+>>	querhemi	1-2 3-4 (99%) 5 6-8 (99%) 9  50-150   <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)		
+>>	querinca	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150     <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB
+>>	querlaev	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150    <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB	
+>>	quermarg	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150   <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quernigr	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150  <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	querstel	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150    <<(99%) <<16-20 (0%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+>>	quervirg	1-2 3-4 (99%) 5 6-8 (99%) 9 50-150      <<(99%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+
+	nyssbifl	1/2    
+	taxoasce	1/2
+	pinuelli	1/2        <<4-6 (10%)<<3-4 (10%)
+>>	pinupalu	1/20   << 6 (99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)<<6-7 (50%)
+	querfalc	1/2      <<(99%)  <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << TRIAL values for all hardwood spp (LL notes)
+	querhemi	1/2      <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)		
+	querinca	1/2      <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB
+	querlaev	1/2      <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB	
+	quermarg	1/2      <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	quernigr	1/2     <<(99%) <<16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	querstel	1/2        <<(99%) <<16-20 (0%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	quervirg	1/2       <<(99%) <<16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+
+
+
+
+>>-----------------------------------------------------------------------------------
+Prescription Fire10Yr
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	10
+
+SiteSelection	Complete
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+>>	nyssbifl	
+>>	taxoasce	
+>>	pinuelli	1-2 (97%) 3-4 (10%)
+>>	pinupalu	1-5 (75%) 6-7 (50%)
+	pinuelli	1-3 (0%) 4-6 (10%)<<3-4 (10%)
+	pinupalu	1-3 (0%) 6-7 (50%)
+	querfalc	1-15  16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << TRIAL values for all hardwood spp (LL notes)
+	querhemi	1-15  16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)		
+	querinca	1-15  16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB
+	querlaev	1-15  16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%) << not included orig. w/SB	
+	quermarg	1-15  16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	quernigr	1-15  16-20 (90%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	querstel	1-15  16-20 (0%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+	quervirg	1-15  16-20 (80%) 21-50(60%) 51-70(40%)  71-90 (5%) 91-120 (1%)
+
+
+>>-----------------------------------------------------------------------------------
+>>-----------------------------------------------------------------------------------
+Prescription HarvestAll
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	1
+
+SiteSelection	Complete
+
+CohortsRemoved	ClearCut
+
+
+>>-----------------------------------------------------------------------------------
+Prescription PlantationFire
+
+StandRanking	Random
+
+MinimumTimeSinceLastHarvest	2
+
+SiteSelection	Complete
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+	pinupalu   	1-2 (50%)
+
+
+
+>>-----------------------------------------------------------------------------------
+Prescription PlantationThinning
+
+StandRanking	Random
+
+								>> Percentage	Patch Size	Priority
+								>> ----------	----------	--------
+SiteSelection	PatchCutting		15%			0.1	
+
+MinTimeSinceDamage	10
+
+CohortsRemoved	SpeciesList
+	>> Species 	Selection
+	>> ------- 	---------
+	pinupalu   	1/10
+
+
+>>-----------------------------------------------------------------------------------
+>> PRESCRIPTION IMPLEMENTATION 
+>> Mgmt Area 1 is 1 year burn interval; Mgmt Area 2 is 2 year burn interval; Mgmt Area 3 is 3 year burn interval; Mgmt Area 4 is 10 year burn interval; Mgmt Area 5 is plantation area.
+
+HarvestImplementations
+
+>>  Mgmt Area   Prescription    		Harvest Area    Begin Time  End Time
+>>  ---------   ------------    		------------    ----------  --------
+>>	1	Fire2Yr				100%		1				
+>>	2	Fire2Yr				100%		1		
+>>	3	Fire2Yr			   	100%		1
+>>	4	Fire2Yr				100%		1
+>>	5	Fire2Yr				100%            1
+>>	0	Fire2Yr				100%            1
+>>	1	Fire2Yr				100%						
+>>	2	Fire2Yr				100%				
+>>	3	Fire2Yr			   	100%		
+>>	4	Fire2Yr				100%		
+>>	5	Fire2Yr				100% 
+	0       WildFire			100%		50          	
+	1	WildFire			100%		50		
+	2	WildFire			100%		50		
+	3	WildFire			100%		50		
+	4	WildFire			100%		50		
+	5	WildFire			100%		50		
+>>	0       WildFire2			100%		50		21
+>>	1	WildFire2			100%		50		51
+>>	2	WildFire2			100%		50		51
+>>	3	WildFire2			100%		50		51
+>>	4	WildFire2			100%		50		51
+>>	5	WildFire2			100%		50		51
+>>	1	WildFire3			100%		90
+>>	2	WildFire3			100%		90
+>>	3	WildFire3			100%		90
+>>	4	WildFire3			100%		90
+>>	5	WildFire3			100%		90
+>>	1	WildFire4			100%		90		61
+>>	2	WildFire4			100%		60		61
+>>	3	WildFire4			100%		60		61
+>>	4	WildFire4			100%		60		61
+>>	5	WildFire4			100%		60		61
+
+>>	0       HarvestAll			100%
+
+>>	4	Fire10Yr			3%				
+												
+>>	5	PlantationFire			100%				
+>>	5	PlantationThinning		50%				
+
+	
+>>-----------------------------------------------------------------------------------
+>> OUTPUTS
+
+PrescriptionMaps	Harvest/prescriptions-{timestep}.img
+BiomassMaps			Harvest/biomass-removed-{timestep}.img
+EventLog			Harvest/Harvest-log.csv
+SummaryLog			Harvest/Harvest-summary-log.csv

@@ -1,0 +1,13 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>stands100m_sb</Description>
+    <NoDataValue>6.55350000000000E+04</NoDataValue>
+    <Metadata>
+      <MDI key="RepresentationType">ATHEMATIC</MDI>
+      <MDI key="STATISTICS_MAXIMUM">515</MDI>
+      <MDI key="STATISTICS_MEAN">26.753979640637</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">97.771826861348</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

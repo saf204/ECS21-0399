@@ -1,0 +1,21 @@
+LandisData	"Age-only Disturbances - Biomass Parameters"
+
+
+CohortBiomassReductions
+>>	Disturbance	Woody	Non-Woody
+>>	-----------	-----	---------
+>>	harvest		20%	80%		<< SB - Changed % for non-woody from 50% to 80%.
+>>	harvest		85%	95%		<< SF - Changed 11/17
+>>	harvest		30%	100%		<<otterman pf
+	harvest		81%	100%		<< regelbrugge blue ridge
+	(default)	0%	0%
+
+
+DeadBiomassReductions
+>>	Disturbance	Woody	Non-Woody
+>>	-----------	-----	---------
+>>	harvest		20%	80%
+>>	harvest		80%	90%		<< SF - changed 11/17
+>>	harvest		77%	100%		<<otterman pf
+	harvest		100%	100%		<<reinhardt
+	(default)	0%	0%

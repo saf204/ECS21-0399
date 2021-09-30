@@ -1,0 +1,13 @@
+LandisData	"Output Biomass"
+
+Timestep	5
+
+MakeTable	yes
+
+Species		all
+
+MapNames	Biomass/livebiomass-{species}-{timestep}.img
+
+DeadPools	both
+
+MapNames	Biomass/deadpool-{pool}-{timestep}.img

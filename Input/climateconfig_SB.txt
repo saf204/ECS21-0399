@@ -1,0 +1,17 @@
+LandisData "Climate Config"				
+
+>> PROVIDE FULL PATH NAME FOR INPUT FILES
+
+ClimateTimeSeries			Monthly_AverageAllYears
+>> FILENAME
+>>ClimateFile				"H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\climate_data_GAEMN_Monthly_160yr_SB.csv"
+>>ClimateFile				"I:\StudyArea_LTM_Plots_100m\Input\climate_data_GAEMN_Monthly_160yr_SB.csv"
+ClimateFile				"C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\climate_data_GAEMN_Monthly_160yr_SB.csv"
+ClimateFileFormat			Monthly_Temp-C_Precip-mmMonth
+
+SpinUpClimateTimeSeries			Monthly_AverageAllYears
+>> FILENAME
+>>SpinUpClimateFile			"H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\climate_data_GAEMN_Monthly_160yr_SB.csv"
+>>SpinUpClimateFile			"I:\StudyArea_LTM_Plots_100m\Input\climate_data_GAEMN_Monthly_160yr_SB.csv"
+SpinUpClimateFile			"C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\climate_data_GAEMN_Monthly_160yr_SB.csv"
+SpinUpClimateFileFormat			Monthly_Temp-C_Precip-mmMonth

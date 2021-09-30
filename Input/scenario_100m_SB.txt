@@ -1,0 +1,47 @@
+LandisData	Scenario
+
+Duration	300
+
+>>Species	H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\species_SB.txt
+>>Species		I:\StudyArea_LTM_Plots_100m\Input\species_SB.txt
+Species		C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\species_SB.txt
+
+>>Ecoregions	H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\ecoregions_SB.txt
+>>Ecoregions	I:\StudyArea_LTM_Plots_100m\Input\ecoregions_SB.txt
+Ecoregions	C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\ecoregions_SB.txt
+
+>>EcoregionsMap	H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\ecoreg100m_SB.img
+>>EcoregionsMap	I:\StudyArea_LTM_Plots_100m\Input\ecoreg100m_SB.img
+EcoregionsMap	C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\ecoreg100m_SB.img
+
+CellLength	100		<< units in meters (100 m x 100 m = 1 ha)
+
+
+>> Succession Extension		Initialization File
+>> --------------------		-------------------
+>>   "NECN Succession"	H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\NECNsuccession_SB.txt
+>>   "NECN Succession"	I:\StudyArea_LTM_Plots_100m\Input\NECNsuccession_SB.txt
+"NECN Succession"	C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\NECNsuccession_SB.txt
+
+
+>> Disturbance Extensions	Initialization File
+>> ----------------------	-------------------
+>>   "Biomass Harvest"		H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\biomassharvest_prescribedfire_SB.txt
+>>   "Biomass Harvest"		I:\StudyArea_LTM_Plots_100m\Input\biomassharvest_prescribedfire_SB.txt
+"Biomass Harvest"		C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\biomassharvest_prescribedfire_SB.txt
+
+DisturbancesRandomOrder	no	<< optional parameter; default = no
+
+
+>> Other Extensions		Initialization File
+>> ----------------		------------------
+>>"Output Cohort Statistics"    H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\output_cohort_stats_SB.txt
+>>"Output Cohort Statistics"    	I:\StudyArea_LTM_Plots_100m\Input\output_cohort_stats_SB.txt
+"Output Cohort Statistics"	C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\output_cohort_stats_SB.txt
+
+>>"Output Biomass"		H:\Postdoc_USFS\Research\AnalysisAndModeling\Model_Runs\ScalingAnalysis\Tests\Test_StudyArea_LTM_Plots_100m\Input\output_biomass_SB.txt
+>>"Output Biomass"		I:\StudyArea_LTM_Plots_100m\Input\output_biomass_SB.txt
+"Output Biomass" 		C:\Users\sflanagan\Desktop\landis_runs\100m_final\Input\output_biomass_SB.txt
+
+>>RandomNumberSeed  4,357  	<< optional parameter; default = the seed is
+                         	<< randomly generated using the current time
