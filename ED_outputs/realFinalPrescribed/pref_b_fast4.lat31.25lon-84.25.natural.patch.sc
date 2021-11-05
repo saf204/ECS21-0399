@@ -1,0 +1,6 @@
+lat31.25lon-84.25 t= 600.083333 pid 0x1ae55f0 landuse 0 area 29.820718 age  0.00 soil_total_c 28.216723 A  0.000 fstd  0.000 fsc 1.223839 stsc 26.984049 stsl 26.984049 ssc 0.008836 psc 0.000000 fsn  0.027294 msn  11.693837 
+lat31.25lon-84.25 t= 600.083333 pid 0x1ad98f0 landuse 0 area 87.344814 age  1.99 soil_total_c 21.561968 A  0.103 fstd  1.000 fsc 0.009444 stsc 21.518773 stsl 21.518773 ssc 0.033751 psc 0.000000 fsn  0.000236 msn  11.723634 
+lat31.25lon-84.25 t= 600.083333 pid 0x1ae8220 landuse 0 area 720.387271 age 17.60 soil_total_c 7.701508 A  0.102 fstd  1.000 fsc 0.515518 stsc 7.174760 stsl 7.174760 ssc 0.011230 psc 0.000000 fsn  0.007569 msn  11.761064 
+lat31.25lon-84.25 t= 600.083333 pid 0x1add3b0 landuse 0 area 771.713047 age 56.81 soil_total_c 5.024836 A  0.098 fstd  1.000 fsc 0.390530 stsc 4.627081 stsl 4.627081 ssc 0.007226 psc 0.000000 fsn  0.002867 msn  11.715921 
+lat31.25lon-84.25 t= 600.083333 pid 0x1adfcb0 landuse 0 area 424.799210 age 109.61 soil_total_c 4.428669 A  0.101 fstd  1.000 fsc 0.856900 stsc 3.566220 stsl 3.566220 ssc 0.005549 psc 0.000000 fsn  0.006666 msn  11.599147 
+lat31.25lon-84.25 t= 600.083333 pid 0x1ad5c20 landuse 0 area 465.934940 age 222.50 soil_total_c 4.779428 A  0.098 fstd  1.000 fsc 0.778095 stsc 3.995129 stsl 3.995129 ssc 0.006204 psc 0.000000 fsn  0.004363 msn  11.636942 
